@@ -1,6 +1,6 @@
 <script>
     import {Route} from 'tinro'; 
-    import './nedb.min.js';
+    
     import './w3.css';
     import './bootstrap.bundle.min.js';
     import './bootstrap.min.css';
@@ -10,9 +10,9 @@
     import Inputs from "./pages/Inputs.svelte";
     import Home from './pages/Home.svelte';
 
-    var database1 = new Nedb({filename: 'Product.db', autoload: true });
-    var database2 = new Nedb({filename: 'Price.db', autoload: true });
-    var database3 = new Nedb({filename: 'Review.db', autoload: true });
+    // var database1 = new Nedb({filename: 'Product.db', autoload: true });
+    // var database2 = new Nedb({filename: 'Price.db', autoload: true });
+    // var database3 = new Nedb({filename: 'Review.db', autoload: true });
 
 </script>
 

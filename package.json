@@ -12,5 +12,10 @@
     "svelte": "^3.37.0",
     "tinro": "^0.6.7",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "@capacitor/android": "^3.2.5",
+    "@capacitor/cli": "^3.2.5",
+    "@capacitor/core": "^3.2.5"
   }
 }
